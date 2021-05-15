@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+    padding: 0;
+}
+html {
+  height: 100%;
+  padding: 0;
+}
+body {
+  background: url("../képek/Vágólap01.jpg") #1a1921 repeat-x center top;
+  color: white;
+  font: 20px/27px verdana;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+header {
+  font-size: 3vw;
+  color: white;
+  padding: 10px;
+}
+.oldal {
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  background: #dad9c7;
+}
+ul {
+  list-style: none;
+   display: flex;
+  margin-left: 2vw;
+}
+ul li {
+ margin: 0.1vw;
+  float: left;
+  background: #dad9c7;
+  width: 200px;
+  line-height: 50px;
+}
+ul li:hover {
+  background: white;
+}
+ul li a {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+h2 {
+}
+.bemutatkozás {
+  display: flex;
+  flex-direction: column;
+  background-color: #8e8e8e;
+  padding: 20px;
+  border-left: 10px solid #c3ba99;
+  border-right: 10px solid #c3ba99;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+.képek {
+  display: flex;
+  flex-direction: column;
+}
